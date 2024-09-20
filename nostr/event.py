@@ -20,6 +20,7 @@ class EventKind(IntEnum):
     DELETE = 5
 
 
+# TODO: Profile Event (kind 0) event class
 
 @dataclass
 class Event:
